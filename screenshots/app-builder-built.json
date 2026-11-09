@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Namma TCR",
+      "hasCanvas": false,
+      "bodyTextLen": 532,
+      "bodyTextHash": "9d3c6dcde90b33ef729d6b06571317028ab39767e4d637dd4440f08d627c627d",
+      "bodyTextPrefix": "TIRUCHENDUR ONLY Namma TCR தமிழ் A CITIZEN'S VOICE, ANSWERED IN ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Namma TCR",
+      "hasCanvas": false,
+      "bodyTextLen": 532,
+      "bodyTextHash": "9d3c6dcde90b33ef729d6b06571317028ab39767e4d637dd4440f08d627c627d",
+      "bodyTextPrefix": "TIRUCHENDUR ONLY Namma TCR தமிழ் A CITIZEN'S VOICE, ANSWERED IN ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

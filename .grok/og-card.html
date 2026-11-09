@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: "Playfair Display";
+        src: url("file:///workspace/.grok/fonts/PlayfairDisplay-Italic.ttf")
+          format("truetype");
+        font-weight: 400 900;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: "Playfair Display";
+        src: url("file:///workspace/.grok/fonts/PlayfairDisplay.ttf")
+          format("truetype");
+        font-weight: 400 900;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "LibSans";
+        src: url("file:///usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf")
+          format("truetype");
+        font-weight: 400;
+        font-style: normal;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background: #141414;
+      }
+      .card {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        background: #141414;
+        overflow: hidden;
+      }
+      .disc {
+        position: absolute;
+        left: -168px;
+        bottom: -210px;
+        width: 520px;
+        height: 520px;
+        border-radius: 50%;
+        background: #8b1a2b;
+      }
+      .lockup {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 140px;
+        text-align: center;
+      }
+      h1 {
+        font-family: "Playfair Display", "Liberation Serif", serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 92px;
+        line-height: 1;
+        letter-spacing: 0.01em;
+        color: #f7f4f1;
+        white-space: nowrap;
+      }
+      p {
+        margin-top: 22px;
+        font-family: "LibSans", "Liberation Sans", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.045em;
+        color: #e8d5c4;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="disc" aria-hidden="true"></div>
+      <div class="lockup">
+        <h1>Namma TCR</h1>
+        <p>Tiruchendur AC-215 · Citizen complaints, answered in real time</p>
+      </div>
+    </div>
+  </body>
+</html>
